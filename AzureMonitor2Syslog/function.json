@@ -5,6 +5,7 @@
       "name": "myEventHubMessage",
       "connection": "logging01_RootManageSharedAccessKey_EVENTHUB",
       "eventHubName": "logs",
+      "cardinality": "many",
       "consumerGroup": "$Default",
       "direction": "in"
     }
